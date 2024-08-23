@@ -1,13 +1,13 @@
 package com.inforcap;
 
+import java.util.logging.Logger;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.logging.Logger;
-
-@DisplayName("Test Clase Calculadora")
+@DisplayName("Test Clase Calculadora Parte 1")
 public class CalculadoraTest {
 
     private Calculadora calculadora = new Calculadora();
